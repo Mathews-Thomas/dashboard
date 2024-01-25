@@ -1,0 +1,562 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-size: small;
+}
+
+.main-container {
+   max-width: auto;
+   background-color: rgb(26, 29, 31);
+}
+
+.subcontainerleft {
+    background-color: rgb(26, 29, 31);
+    max-width: 25%;
+    color: rgb(215, 216, 216);
+    border-right: 1px solid rgb(47,51,56);
+}
+
+.subcontainertopitems {
+    justify-content: space-around;
+    margin-bottom: 5px solid black;
+    margin-right: 20px;
+}
+
+.headflex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: small;
+}
+.topleftitem2:hover{
+    background-color:rgb(47,51,56);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.centerleftflex:hover{
+    background-color:rgb(47,51,56);
+    cursor: pointer;
+    border-radius: 10px;  
+}
+.enditems:hover{
+    background-color:rgb(47,51,56);
+    cursor: pointer;
+    border-radius: 10px; 
+}
+.topleftitem3:hover{
+    background-color:rgb(47,51,56);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.headflex img{
+    margin-right: 20px;
+}
+.topleftitem1 p {
+    color: rgb(147, 151, 158);
+}
+
+.topleftitem1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    align-items: center;
+    font-size: small;
+
+}
+
+.topleftitem2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 10px;
+    font-size: small;
+    margin: 10px;
+}
+
+.topleftitem3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    font-size: small;
+    margin-left: 15px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgb(47,51,56);
+    padding: 10px;
+}
+
+.topleftitem2 p {
+    background-color: rgb(8, 87, 222);
+    padding: 6px;
+    color: white;
+    border-radius: 50px;
+    font-size: x-small;
+    max-width: 20px;
+}
+
+.topleftitem3 p {
+    background-color: rgb(250, 81, 88);
+    padding: 6px;
+    color: white;
+    border-radius: 30px;
+    font-size: x-small;
+    max-width: 30px;
+}
+
+.subcontainercenteritems {
+    font-size: small;
+}
+
+.centerleftflex {
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    margin-left: 40px;
+    font-size: small;
+    align-items: center;
+    margin: 10px;
+}
+
+.leftsubcontainerenditems {
+    padding: 10px;
+    margin: 20px;
+}
+
+.leftsubcontainerenditems p {
+    color: rgb(147, 151, 158);
+    padding: 10px;
+}
+.leftsubcontainerenditems p:hover{
+   text-decoration: underline;
+}
+.enditems {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+.centerleftflex img{
+margin-right: 20px;
+}
+
+.projectitems {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 50px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.projectitems img {
+    margin-right: 10px;
+    margin: 10px;
+}
+.enditems{
+    margin: 10px;
+}
+.enditems p {
+    font-size: x-small;
+    background-color: rgb(36, 40, 44);
+    padding: 6px;
+    color: rgb(147, 151, 158);
+    border-radius: 100px;
+    height: 25px;
+    border: 1px solid rgb(36, 40, 44);
+    align-items: center;
+}
+.enditems img{
+    margin-right: 20px;
+}
+
+.projectitems3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 50px;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.projectitems3 img {
+    margin: 5px;
+}
+
+.showmore {
+    display: flex;
+    gap: 10px;
+    font-size: small;
+    color: rgb(147, 151, 158);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    margin-left: 50px;
+}
+.showmore:hover{
+    background-color:rgb(47,51,56);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.showmore img{
+    margin-right: 10px;
+}
+.nightandday {
+    margin: 30px;
+    padding: 20px;
+}
+
+.leftfooter {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    justify-content: space-around;
+}
+
+.leftfooteritems {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.rightsubcontainer{
+    background-color: rgb(26, 29, 31);
+    max-width: auto;
+    padding: 10px;
+    position: relative;
+    max-width: auto;
+
+}
+.main-container{
+    display: flex;
+    background-color: rgb(21,23,25);
+    max-width: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(47,51,56);
+margin: 10px;
+padding: 10px;
+margin-top: 0;
+}
+.navleftitem{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-size: small;
+}
+.navleftitem1{
+    background-color: rgb(47,51,56);;
+    padding: 9px;
+    border-radius: 10px;
+    color: rgb(147, 151, 158);
+    border: 1px solid rgb(47,51,56);;
+}
+.navleftitem1 span{
+    
+    padding: 6px;
+    border-radius: 6px;
+    color:aliceblue;
+    margin-right: 10px;
+    background-color: rgb(26, 29, 31);
+}
+.navleftitem h2{
+color:white;
+font-weight: bold;
+font-size: 25px;
+}
+.create{
+    background-color: rgb(8, 87, 222);
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: medium;
+    border: none;
+}
+.create:hover{
+    background-color:rgb(47,51,56);
+    cursor: pointer;
+}
+.create span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.listitems{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: small;
+    color:rgb(147, 151, 158) ;
+    border-bottom: 1px solid rgb(47,51,56);
+}
+ol li{
+    display: inline;
+    margin: 15px;
+    padding: 10px;
+}
+ol li:hover{
+    border-bottom: 1px solid white;
+    padding: 10px; 
+    cursor: pointer; 
+}
+.listitemcl{
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.listitemcl:hover{
+    border-bottom: none;
+}
+.plans{
+    font-size: small;
+    margin: 10px;
+    padding: 10px;
+}
+.plans h2{
+    color:white;
+}
+.plans p{
+    color:rgb(147, 151, 158);
+    margin-top: 10px;
+}
+.users img{
+ margin: 30px;
+ border-radius: 10px;
+}
+.itemsfloat{
+    background-color: rgb(36,40,44);
+    width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top:9%;
+    right: 40px;
+}
+.floating0{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(36,40,44);
+}
+.floating0:hover{
+    background-color: rgb(8,87,222);
+    border-radius: 5px;
+}
+.floating2{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(26, 29, 31);
+    border-radius: 5px;
+}
+.floating2:hover{
+    background-color: rgb(8,87,222);
+    border-radius: 5px;
+}
+.floating3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(36,40,44);
+    width: 200px;
+}
+.floating3:hover{
+    background-color: rgb(8,87,222);
+    border-radius: 5px;
+}
+.float{
+    display: flex;
+    gap:5px;
+
+}
+.floating1{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(36,40,44);
+}
+.floating1:hover{
+    background-color: rgb(8,87,222);
+    border-radius: 5px;
+}
+.floatitm span{
+    background-color:rgb(47,51,56);
+    margin: 3px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.floatitm1 span{
+    background-color:rgb(47,51,56);
+    margin: 3px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.rightendflex{
+    display: flex;
+    color: white;
+    gap: 10px;
+    justify-content: space-around;
+}
+.rightendflexitm1{
+    margin: 20px;
+    padding: 10px;
+}
+.img2{
+    margin-bottom: 10px;
+}
+.rightendflexitm1 h1{
+ margin-top: 10px;
+ margin-bottom: 5px;
+}
+.button2{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(8,87,222);
+    color: white;
+}
+.button2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.button1{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(147, 151, 158); 
+    background-color:rgb(21,23,25) ; 
+    border: 1px solid rgb(47,51,56) ;
+}
+.button1:hover{
+    background-color: rgb(8,87,222);
+    color: white;
+    cursor: pointer;
+}
+.button3{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+    color: black; 
+    background-color:white ; 
+}
+.button3:hover{
+    background-color: rgb(21,23,25);
+    color: white;
+    cursor: pointer;
+}
+.rightendflexitm2{
+   background-color: rgb(8,87,222); 
+   border-radius: 20px;
+}
+.rightendflexitm2 h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: x-large;
+    margin-top: 40px;
+   }
+   .rightendflexitm2{
+    margin: 20px;
+    padding: 10px;
+}
+.green{
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+    font-size: x-small;
+}
+.green span{
+    font-size: x-small;
+}
+.green img{
+    margin-right: 10px;
+}
+.rightendflexitm1:hover{
+    background-color:red;
+    border-radius: 20px;
+}
+.rightendflexitm1{
+width: 210px;
+max-width: auto;
+}
+.rightendflexitm2{
+width: 210px;
+max-width: auto;    
+}
+.rightendflexitm2:hover{
+    background-color: red;
+    border-radius: 20px;
+}
+
+.rightendflexitm1 p{
+ color:rgb(147, 151, 158);
+ font-size: x-small;
+}
+.rightendflexitm2 p{
+    color:white;
+    font-size: x-small;
+   }
+   .rightendflexitm1 h2{
+    font-size: large;
+   } 
+   .rightendflexitm1 h1{
+    font-size: x-large;
+    margin-top: 40px;
+   } 
+   .rightendflexitm2 h2{
+    font-size: large;
+   }
+.flexrec{
+    display: flex;
+    align-items: center;
+    gap:60px;
+}
+.rec{
+    background-color: aqua;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgb(63, 121, 221)
+}
+.rightendflexitm2:hover{
+    .rec{
+        background-color: red;
+    }
+}
+.navleftitem1:hover{
+    background-color: rgb(63, 121, 221);
+    color: white;
+    cursor: pointer;
+}
+.navleftitem1 span:hover{
+    background-color: red;
+    color: white;
+}
+#itemsfloat{
+    display: none;
+}
